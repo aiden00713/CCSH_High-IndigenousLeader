@@ -132,7 +132,7 @@ a:focus {
 }
 
 .sub_page .product_section {
-  padding: 90px 0;
+  padding: 250px 0;
   background: #0b214d;
 }
 
@@ -913,4 +913,12 @@ a:focus {
     width: 1200px;
     display: grid;
     grid-template-columns: [time] 60px [D1] 1fr [D2] 1fr [D3] 1fr [D4] 1fr [END];
+}
+
+.iframe-rwd iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
